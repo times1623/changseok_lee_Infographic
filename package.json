@@ -1,26 +1,17 @@
 {
-  "name": "changseok_lee_infographic",
+  "name": "changseok_lee_fip",
   "version": "1.0.0",
-  "description": "Infographic assignment",
+  "description": "integrated project assignment",
   "main": "gulpfile.js",
-  "dependencies": {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Changseok Lee",
+  "license": "ISC",
+  "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/times1623/changseok_lee_Infographic.git"
-  },
-  "author": "Changseok Lee",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/times1623/changseok_lee_Infographic/issues"
-  },
-  "homepage": "https://github.com/times1623/changseok_lee_Infographic#readme"
+  }
 }
