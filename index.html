@@ -4,12 +4,115 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Changseok Lee Portfolio website</title>
+    <title>Changseok Lee Infographic assignment</title>
     <link rel="stylesheet" href="css/foundation.css">
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
-  <body>
+  <body class="grid container">
+		<header>
+			<h2 class="hide">Header</h2>
+			<div class="grid-x grid-padding-x">
+			<div class=" small-6 small-offset-3 large-4 large-offset-4 cell">
+				<img id="logo" src="images/logo.svg" alt="logo">
+			</div>
+			</div>
+		</header>
+
+		<main id="1" class="main">
+
+		<div class="grid-x grid-padding-x">
+			<div class="small-10 small-offset-1 large-8 large-offset-2 cell">
+				<object data="images/inc_gra.svg" type="image/svg+xml" id="incGraph" class="svg-graphic"></object>
+			</div>
+		</div>
+
+		<div class="grid-x grid-padding-x">
+			<div class="small-12 large-6 large-offset-3 cell">
+				<h2 class="titleBar">Accident and Mortal Rate</h2>
+			</div>
+		</div>
+
+		<div class="grid-x grid-padding-x">
+			<div class="small-12 large-4 large-offset-4 cell">
+				<object data="images/info.svg" type="image/svg+xml" id="info" class="infoC"></object>
+			</div>
+		</div>
+
+		<div class="grid-x grid-padding-x">
+			<div class="small-12 large-8 large-offset-2 cell">
+				<h2 id="int"  class="statInfo"></h2>
+			</div>
+		</div>
+
+
+		<div class="grid-x grid-padding-x">
+			<div class="small-12 large-6 large-offset-3 cell">
+				<h2 class="titleBar">Type of Accident At The Ocean</h2>
+			</div>
+		</div>
+
+		<div class="grid-x grid-padding-x">
+			<div class="small-4 large-4 cell">
+				<object data="images/life_g.svg" type="image/svg+xml" id="lifeG" class="omg"></object>
+			</div>
+
+			<div class="small-8 large-8 cell">
+				<h2 id="sur" class="statInfo"></h2>
+			</div>
+		</div>
+
+		<div id="rate1" class="grid-x grid-padding-x">
+			
+			<div class="small-3 cell">
+				<img id="tube1" class="tube" src="images/tube1.svg" alt="tube">
+			</div>
+
+			<div class="small-3 cell">
+				<img id="tube2" class="tube" src="images/tube4.svg" alt="tube">
+			</div>
+
+			<div class="small-3 cell">
+					<img id="tube3" class="tube" src="images/tube3.svg" alt="tube">
+				</div>
+	
+				<div class="small-3 cell">
+					<img id="tube4" class="tube" src="images/tube2.svg" alt="tube">
+				</div>
+
+		</div>
+
+		<div class="grid-x grid-padding-x">
+			<div class="small-12 cell">
+				<h2 id="res" class="statInfo">
+				</h2>
+			</div>
+		</div>
+
+		<div class="grid-x grid-padding-x">
+			<div class="small-12 large-6 large-offset-3 cell">
+				<h2 class="titleBar">Prevention Method</h2>
+			</div>
+		</div>
+
+		<div id="tagSec" class="grid-x grid-padding-x">
+			<div class="small-5 cell">
+					<object data="images/tagline.svg" type="image/svg+xml" id="tagline" class="svg-graphic"></object>
+			</div>
+			<div class="small-7 cell">
+				<object data="images/icon_gra.svg" type="image/svg+xml" id="tagGra" class="svg-graphic"></object>
+			</div>
+			
+		</div>
+
+	</main>
+
+
+	  
+		
 
 	<script src="js/vendor/jquery.js"></script>
 	<script src="js/vendor/what-input.js"></script>
